@@ -4,4 +4,4 @@ Pre-requisite: execute "yarn" command in both  bundle-cost-client/bundle-cost-ap
 
 To start client: execute "npm start" in bundle-cost-client
 
-To start server: execite "npm start" in bundle-cost-api
+To start server: execute "npm start" in bundle-cost-api
