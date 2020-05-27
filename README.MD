@@ -6,7 +6,7 @@ To start client: execute "npm start" in bundle-cost-client
 
 To start server: execute "npm start" in bundle-cost-api
 
-To run client tests, execute "npm test --collect-coverage"
+To run client tests, execute "npm test --collect-coverage" or the run configuration is available on Git for IntelliJ
 
 DISCLAIMERS:
-1. The API Side is currently using a fake bundle size calculator due to time constrains and issues in running the correct script
+1. The API Sicde is currently using a fake bundle size calculator due to time constrains and issues in running the correct script

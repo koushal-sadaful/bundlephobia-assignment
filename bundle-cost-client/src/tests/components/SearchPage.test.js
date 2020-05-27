@@ -14,7 +14,6 @@ jest.useFakeTimers()
 describe("SearchPage", () => {
     let wrapper = null;
     afterEach(() => {
-        console.log(wrapper)
         if (wrapper){
             wrapper.unmount()
             wrapper = null
