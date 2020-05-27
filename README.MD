@@ -5,3 +5,8 @@ Pre-requisite: execute "yarn" command in both  bundle-cost-client/bundle-cost-ap
 To start client: execute "npm start" in bundle-cost-client
 
 To start server: execute "npm start" in bundle-cost-api
+
+To run client tests, run "jest -c"
+
+DISCLAIMERS:
+1. The API Side is currently using a fake bundle size calculator due to time constrains and issues in running the correct script
