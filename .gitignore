@@ -1,0 +1,6 @@
+/bundle-cost-api/node_modules/
+/bundle-cost-api/dev/
+/bundle-cost-api/bin/
+/bundle-cost-api/tmp/
+/bundle-cost-client/node_modules/
+/bundle-cost-client/coverage/
