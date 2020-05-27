@@ -1,11 +1,10 @@
 import React from 'react'
-import {push} from 'connected-react-router'
 import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
 import {
     fetchSearchSuggestions
 } from './../actions/searchActions'
-import {Container, Header, Search, Grid, Select} from "semantic-ui-react";
+import {Container, Header, Search} from "semantic-ui-react";
 import {updateSearchInputValue} from "../actions/searchActions";
 import _ from 'lodash'
 import {resetState} from "../actions/packageStatsActions";

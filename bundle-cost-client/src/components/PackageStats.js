@@ -1,7 +1,7 @@
 import React from 'react'
 import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
-import {Container, Header, Search, Grid, Select, Statistic, Label} from "semantic-ui-react";
+import {Grid} from "semantic-ui-react";
 import {fetchPackageStats, resetState} from "../actions/packageStatsActions";
 import Loader from "semantic-ui-react/dist/commonjs/elements/Loader";
 import SizeStatisticsPanel from "./SizeStatisticsPanel";

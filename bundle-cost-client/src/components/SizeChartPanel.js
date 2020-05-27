@@ -1,7 +1,7 @@
-import {Card, Grid, Statistic} from "semantic-ui-react";
+import {Card} from "semantic-ui-react";
 import React from "react";
 import {
-    BarChart, Bar, Cell, XAxis,  Tooltip, Legend, ResponsiveContainer,
+    BarChart, Bar, XAxis,  Tooltip, Legend, ResponsiveContainer,
 } from 'recharts';
 import CustomTooltip from "./CustomTooltip";
 

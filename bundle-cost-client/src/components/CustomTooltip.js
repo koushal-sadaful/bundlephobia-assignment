@@ -1,6 +1,6 @@
 import React from "react";
 import {prettifySize} from "../utils/sizeHelper";
-import {Message, Popup} from "semantic-ui-react";
+import {Message} from "semantic-ui-react";
 
 const CustomTooltip = (props) => {
 

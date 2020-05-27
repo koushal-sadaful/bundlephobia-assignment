@@ -1,4 +1,4 @@
-import {Card, Grid, Statistic} from "semantic-ui-react";
+import {Card, Statistic} from "semantic-ui-react";
 import React from "react";
 import {prettifySize} from "../utils/sizeHelper";
 
