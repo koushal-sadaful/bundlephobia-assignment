@@ -51,6 +51,12 @@ class NpmDataTransformer {
         };
     }
 
+    static majorVersionAlreadyExists(majorVersionId, versionIds) {
+        const lastThreeVersionIds = versionIds.slice(-3);
+        console.log(lastThreeVersionIds)
+        return lastThreeVersionIds.includes(majorVersionId)
+    }
+
     static formatPayload(npmData, versionRequested) {
         const versionIds = Object.keys(npmData.versions);
         if (!versionRequested)
@@ -61,12 +67,13 @@ class NpmDataTransformer {
         let lastMajorVersionData = this.getLastMajorVersionData(npmData, versionIds);
         console.log(previousVersions.indexOf(lastMajorVersionData));
 
-        if (previousVersions.indexOf(lastMajorVersionData) === -1)
-            previousVersions = previousVersions.concat(lastMajorVersionData);
+        if (!this.majorVersionAlreadyExists(lastMajorVersionData.version, versionIds))
+            previousVersions = [lastMajorVersionData].concat(previousVersions);
 
         const versionSpecificData = npmData.versions[versionRequested];
-        const realStats = RealBundleSizeCalculator.getBuildStats(versionSpecificData["name"])
-        console.log(realStats)
+
+        // const realStats = RealBundleSizeCalculator.getBuildStats(versionSpecificData["name"])
+        // console.log(realStats)
 
         const currentVersionPayload = this.createVersionPayload(versionRequested, npmData)
         const packageDetails = {
