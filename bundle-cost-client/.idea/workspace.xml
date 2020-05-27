@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ed990be-a17f-4192-a499-d4c22abd8522" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cQvk9hdiertdApixU6zclH64NY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tests/components" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\symphony-client\src\tests\utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\symphony-client\src\tests\components" />
+      <recent name="C:\dev\symphony-client\src\tests\utils" />
+      <recent name="C:\dev\symphony-client\src\components" />
+      <recent name="C:\dev\symphony-client\src\tests\testUtils" />
+      <recent name="C:\dev\symphony-client\src\tests\reducers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.All Tests">
+    <configuration name="CustomTooltip.should pass the snapshot test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/tests/components/CustomTooltip.test.js" />
+      <test-names>
+        <test-name value="CustomTooltip" />
+        <test-name value="should pass the snapshot test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="PackageStatsHeader" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/tests/components/PackageStatsHeader.test.js" />
+      <test-names>
+        <test-name value="PackageStatsHeader" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="PackageStatsHeader.should redirect to home page if user selects to search another package" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/tests/components/PackageStatsHeader.test.js" />
+      <test-names>
+        <test-name value="PackageStatsHeader" />
+        <test-name value="should redirect to home page if user selects to search another package" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="PackageStatsHeader.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/tests/components/PackageStatsHeader.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchPage.should pass the snapshot test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/tests/components/SearchPage.test.js" />
+      <test-names>
+        <test-name value="SearchPage" />
+        <test-name value="should pass the snapshot test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="Jest.PackageStatsHeader.test.js" />
+      <item itemvalue="Jest.PackageStatsHeader" />
+      <item itemvalue="Jest.PackageStatsHeader.should redirect to home page if user selects to search another package" />
+      <item itemvalue="Jest.CustomTooltip.should pass the snapshot test" />
+      <item itemvalue="Jest.SearchPage.should pass the snapshot test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.SearchPage.should pass the snapshot test" />
+        <item itemvalue="Jest.CustomTooltip.should pass the snapshot test" />
+        <item itemvalue="Jest.PackageStatsHeader.should redirect to home page if user selects to search another package" />
+        <item itemvalue="Jest.PackageStatsHeader" />
+        <item itemvalue="Jest.PackageStatsHeader.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ed990be-a17f-4192-a499-d4c22abd8522" name="Default Changelist" comment="" />
+      <created>1590473771832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590473771832</updated>
+      <workItem from="1590473775183" duration="37538000" />
+    </task>
+    <task id="LOCAL-00001" summary="Set up new projkect">
+      <created>1590474155314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590474155315</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add tests">
+      <created>1590476846388</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590476846388</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add tests">
+      <created>1590480809130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590480809130</updated>
+    </task>
+    <task id="LOCAL-00004" summary="all tests good">
+      <created>1590501321712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590501321712</updated>
+    </task>
+    <task id="LOCAL-00005" summary="all tests good">
+      <created>1590503103383</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590503103383</updated>
+    </task>
+    <task id="LOCAL-00006" summary="all tests good">
+      <created>1590503516514</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590503516514</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add custom tooltip test">
+      <created>1590551288292</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590551288294</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add size helper test">
+      <created>1590551680618</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590551680618</updated>
+    </task>
+    <task id="LOCAL-00009" summary="cleanup">
+      <created>1590552056952</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590552056952</updated>
+    </task>
+    <task id="LOCAL-00010" summary="cleanup">
+      <created>1590560416877</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590560416877</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add chart test">
+      <created>1590562531127</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590562531127</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactor, improve quality">
+      <created>1590580293749</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590580293749</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add snapshot tests">
+      <created>1590582695728</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590582695728</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Set up new projkect" />
+    <MESSAGE value="add tests" />
+    <MESSAGE value="all tests good" />
+    <MESSAGE value="add custom tooltip test" />
+    <MESSAGE value="add size helper test" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="add chart test" />
+    <MESSAGE value="refactor, improve quality" />
+    <MESSAGE value="add snapshot tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add snapshot tests" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2334" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590551755124">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590551755124" />
+    <state x="2012" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590547475960">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590547475960" />
+    <state x="2715" y="227" width="553" height="586" key="#xdebugger.evaluate" timestamp="1590554537557">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2715" y="227" width="553" height="586" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590554537557" />
+    <state x="2505" y="114" key="CommitChangelistDialog2" timestamp="1590582694100">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2505" y="114" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590582694100" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1590587834003">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834003" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1590587834003">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834003" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1590587834003">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834003" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1590587834003">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834003" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1590587834004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834004" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1590587834003">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834003" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1590587834003">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834003" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1590587834004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834004" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1590587834004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834004" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1590587834004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834004" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1590587834004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834004" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1590587834004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834004" />
+    <state width="1877" height="348" key="GridCell.Tab.3.bottom" timestamp="1590587834004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.3.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834004" />
+    <state width="1877" height="348" key="GridCell.Tab.3.center" timestamp="1590587834004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.3.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834004" />
+    <state width="1877" height="348" key="GridCell.Tab.3.left" timestamp="1590587834004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.3.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834004" />
+    <state width="1877" height="348" key="GridCell.Tab.3.right" timestamp="1590587834004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.3.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590587834004" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1590580203539">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590580203539" />
+    <state x="2523" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590581268561">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2523" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590581268561" />
+    <state x="2689" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590565983765">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2689" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590565983765" />
+    <state x="2441" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590499263920">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2441" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590499263920" />
+    <state x="2575" y="257" width="609" height="526" key="find.popup" timestamp="1590581982106">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2575" y="257" width="609" height="526" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590581982106" />
+    <state x="2536" y="240" key="run.anything.popup" timestamp="1590558131139">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="240" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590558131139" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590557955018">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590557955018" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/SizeStatisticsPanel.js</url>
+          <line>34</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/actions/searchActions.js</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/actions/searchActions.js</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/symphony_client$SearchPage_should_render_list_of_suggestions_for_some_input.info" NAME="SearchPage.should render list of suggestions for some input Coverage Results" MODIFIED="1590554347461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

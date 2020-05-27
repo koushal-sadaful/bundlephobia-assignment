@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchPage should pass the snapshot test 1`] = `
+<div>
+  <div
+    className="ui fluid container"
+  >
+    <div
+      className="ui center aligned container"
+    >
+      <h2
+        className="ui header"
+        style={
+          Object {
+            "fontSize": "1.2em",
+            "marginTop": "2em",
+          }
+        }
+      >
+        Fake BundlePhobia 
+      </h2>
+      <h5
+        className="ui header"
+        style={
+          Object {
+            "fontSize": "1.2em",
+            "fontWeight": "normal",
+            "marginBottom": 0,
+          }
+        }
+      >
+        <div
+          className="ui fluid search search-input"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+        >
+          <div
+            className="ui icon input"
+          >
+            <input
+              autoComplete="off"
+              className="prompt"
+              onChange={[Function]}
+              onClick={[Function]}
+              placeholder="Type package name"
+              tabIndex="0"
+              type="text"
+              value=""
+            />
+            <i
+              aria-hidden="true"
+              className="search icon"
+              onClick={[Function]}
+            />
+          </div>
+          <div
+            className="results transition"
+          >
+            <div
+              className="message empty"
+            >
+              <div
+                className="header"
+              >
+                No results found.
+              </div>
+            </div>
+          </div>
+        </div>
+      </h5>
+    </div>
+  </div>
+</div>
+`;

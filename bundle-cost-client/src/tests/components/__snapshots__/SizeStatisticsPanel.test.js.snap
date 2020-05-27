@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SizeStatisticsPanel should pass the snapshot test 1`] = `
+<div
+  className="statistics-panel"
+>
+  <div
+    className="ui cards"
+  >
+    <div
+      className="ui card"
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="ui statistic"
+        >
+          <div
+            className="value"
+          >
+            2.12 MB
+          </div>
+        </div>
+        <div
+          className="header"
+        >
+          MINIFIED
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui card"
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="ui statistic"
+        >
+          <div
+            className="value"
+          >
+            1.45 MB
+          </div>
+        </div>
+        <div
+          className="header"
+        >
+          MINIFIED + GZIPPED
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui card"
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="ui statistic"
+        >
+          <div
+            className="value"
+          >
+            41.5 MB
+          </div>
+        </div>
+        <div
+          className="header"
+        >
+          UNPACKED
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

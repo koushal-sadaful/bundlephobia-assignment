@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PackageStatsHeader should pass the snapshot test 1`] = `
+Array [
+  " ",
+  <div
+    className="package-stats-header"
+  >
+    <div
+      className="ui fluid card"
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="header"
+          style={
+            Object {
+              "fontSize": "2.5em",
+              "padding": "0.3em",
+            }
+          }
+        >
+          De Brie
+        </div>
+        <div
+          className="meta"
+        >
+          [1.0]
+        </div>
+        <div
+          className="description"
+        >
+          Le fromage que j'aime
+        </div>
+      </div>
+      <div
+        className="extra content"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <button
+            className="ui icon left labeled button"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="search icon"
+              onClick={[Function]}
+            />
+            Search another package
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>,
+  " ",
+]
+`;

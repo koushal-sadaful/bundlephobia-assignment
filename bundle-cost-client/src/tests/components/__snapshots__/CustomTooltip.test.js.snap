@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTooltip should pass the snapshot test 1`] = `
+<div
+  className="ui floating message"
+>
+  <p
+    className="tooltip-label"
+  >
+    version: 0.18.1
+  </p>
+  <p
+    className="tooltip-label"
+  >
+    gzip: 4.22 kB
+  </p>
+  <p
+    className="tooltip-label"
+  >
+    minified: 11.4 kB
+  </p>
+</div>
+`;
