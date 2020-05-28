@@ -3,6 +3,7 @@ import React from "react";
 import {fetchSearchSuggestions, updateSearchInputValue} from "../../actions/searchActions";
 import axios from 'axios';
 import {searchSuggestionDataPayloadJSON} from "../testUtils/searchSuggestionDataPayload";
+import {resetState} from "../../actions/packageStatsActions";
 
 jest.mock('axios');
 let testStore = null;
@@ -33,32 +34,43 @@ describe("Search Reducer", () => {
     });
 
     it("should update the search input value", () => {
-        testStore.dispatch(updateSearchInputValue("Baguette"))
+        testStore.dispatch(updateSearchInputValue("Baguette"));
         expect(testStore.getState().search).toEqual(getExpectedState("Baguette"));
     });
 
     it("should update the suggestions if response is 200", async () => {
         axios.get.mockImplementationOnce(() => Promise.resolve(searchSuggestionDataPayloadJSON));
 
-        await testStore.dispatch(fetchSearchSuggestions("axios"))
+        await testStore.dispatch(fetchSearchSuggestions("axios"));
         expect(testStore.getState().search).toEqual(getExpectedState("", expectedSearchSuggestionData));
     });
 
     it("should update the error message if response is error", async () => {
         axios.get.mockImplementationOnce(() => Promise.reject(new Error("Some dumb error")));
 
-        await testStore.dispatch(fetchSearchSuggestions("axios"))
+        await testStore.dispatch(fetchSearchSuggestions("axios"));
         expect(testStore.getState().search).toEqual(getExpectedState("", [], "Some dumb error"))
     });
 
     it("should clear the previous error message if response is 200", async () => {
         axios.get.mockImplementationOnce(() => Promise.reject(new Error("Some dumb error")));
-        await testStore.dispatch(fetchSearchSuggestions("axios"))
+        await testStore.dispatch(fetchSearchSuggestions("axios"));
         expect(testStore.getState().search).toEqual(getExpectedState("", [], "Some dumb error"));
 
         axios.get.mockImplementationOnce(() => Promise.resolve(searchSuggestionDataPayloadJSON));
-        await testStore.dispatch(fetchSearchSuggestions("axios"))
+        await testStore.dispatch(fetchSearchSuggestions("axios"));
         expect(testStore.getState().search).toEqual(getExpectedState("", expectedSearchSuggestionData, null));
+    });
+
+
+    it("should reset the state", async () => {
+        axios.get.mockImplementationOnce(() => Promise.resolve(searchSuggestionDataPayloadJSON));
+
+        await testStore.dispatch(fetchSearchSuggestions("axios"));
+        expect(testStore.getState().search).toEqual(getExpectedState("", expectedSearchSuggestionData));
+
+        testStore.dispatch(resetState());
+        expect(testStore.getState().search).toEqual(getExpectedState());
     });
 
 
